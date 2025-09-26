@@ -279,18 +279,22 @@ If there are any changes that I can make this course more accessible to you, I a
   <tr>
     <td rowspan="2">5</td>
     <td>September 22nd</td>
-    <td></td>
+    <td>Applications of modular arithmetic</td>
   </tr>
   <tr>
     <td style="display:none"></td>
     <td>September 24th</td>
-    <td><i>HW 3 due on Thursday, 9/25 at 8PM.</i></td>
+    <td>
+      Introduction to Set Theory
+      <br>
+      <i>HW 3 due on Thursday, 9/25 at 8PM.</i>
+    </td>
   </tr>
 
   <tr>
     <td rowspan="2">6</td>
     <td>September 29th</td>
-    <td></td>
+    <td>Applications of set theory</td>
   </tr>
   <tr>
     <td style="display:none"></td>
