@@ -305,7 +305,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       Maker Studio tour <i>(Meet at the Library (Building 15) on the 2nd Floor.)</i>
       <br>
-      <span class="due"><a href="/S26/MAT4200/Exam1/">Exam 1</a> due on Thursday, 2/26 at 8PM.</span>
+      <span class="due"><a href="/S26/MAT4200/Exam1/">Exam 1</a> due on Friday, 2/27 at 11:59PM.</span>
     </td>
   </tr>
 
@@ -313,16 +313,14 @@ If there are any changes that I can make this course more accessible to you, I a
     <td rowspan="2">7</td>
     <td class="date">March 2nd</td>
     <td>
-      [...]
-      <br>
-      <span class="due">Introduction to term paper (blog post).</span>
+      Unit speed parameterization
     </td>
   </tr>
   <tr>
     <td style="display:none"></td>
     <td class="date">March 4th</td>
     <td>
-      [...]
+      Curvature and the Frenet frame (\(\mathbb{R}^2\))
       <br>
       <span class="due"><a href="/S26/MAT4200/HW04/">HW 4</a> due on Thursday, 3/5 at 8PM.</span>
     </td>
@@ -332,15 +330,17 @@ If there are any changes that I can make this course more accessible to you, I a
   <tr>
     <td rowspan="2">8</td>
     <td class="date">March 9th</td>
-    <td>[...]</td>
+    <td>
+      Frenet-Serret frame
+      <br>
+      <span class="due">Introduction to term paper (blog post).</span>
+    </td>
   </tr>
   <tr>
     <td style="display:none"></td>
     <td class="date">March 11th</td>
     <td>
-      [...]
-      <br>
-      <span class="due"><a href="/S26/MAT4200/HW05/">HW 5</a> due on Thursday, 3/12 at 8PM.</span>
+      Fundamental Theorem for curves in (\(\mathbb{R}^3\))
     </td>
   </tr>
 
@@ -355,7 +355,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       [...]
       <br>
-      <span class="due"><a href="/S26/MAT4200/HW06/">HW 6</a> due on Thursday, 3/19 at 8PM.</span>
+      <span class="due"><a href="/S26/MAT4200/HW05/">HW 5</a> due on Thursday, 3/19 at 8PM.</span>
     </td>
   </tr>
   <tr>
@@ -369,7 +369,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
      [...]
      <br>
-      <span class="due"><a href="/S26/MAT4200/Exam2/">Exam 2</a> due on Thursday, 3/26 at 8PM.</span>
+      <span class="due"><a href="/S26/MAT4200/HW07">HW 6</a> due on Thursday, 3/26 at 8PM</span>
     </td>
 
   </tr>
@@ -389,7 +389,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       [...]
       <br>
-      <span class="due"><a href="/S26/MAT4200/HW07">HW 7</a> due on Thursday, 4/9 at 8PM</span>
+      <span class="due"><a href="/S26/MAT4200/HW08">HW 7</a> due on Thursday, 4/9 at 8PM</span>
     </td>
   </tr>
 
@@ -404,7 +404,7 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       [...]
       <br>
-      <span class="due"><a href="/S26/MAT4200/HW08">HW 8</a> due on Thursday, 4/16 at 8PM</span>
+      <span class="due"><a href="/S26/MAT4200/Exam2/">Exam 2</a> due on Friday, 4/17 at 11:59PM.</span>
     </td>
   </tr>
 
@@ -419,7 +419,8 @@ If there are any changes that I can make this course more accessible to you, I a
     <td>
       [...]
       <br>
-      <span class="due">Final draft of <a href="/S26/MAT4200/term_paper/">term paper</a> (blog post) due on Friday, 4/23 at 8PM.</span>
+      <span class="due"><a href="/S26/MAT4200/HW08">HW 8</a> due on Thursday, 4/23 at 8PM (all about blog post)</span>
+      <span class="due">Final draft of <a href="/S26/MAT4200/term_paper/">term paper</a> (blog post) due on Friday, 4/24 at 11:59PM.</span>
     </td>
   </tr>
 

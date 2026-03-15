@@ -14,10 +14,10 @@ layout: layouts/hw.njk
   <li>Normal subgroups</li>
   <li>Quotient groups</li>
 </ul>
-<!-- <h2>Change log</h2>
+<h2>Change log</h2>
 <ul>
-  <li><i>(2026-xx-xx xx:xx)</i>[...]</li>
-</ul> -->
+  <li><i>(2026-03-13 17:41)</i>Choice Exercise 4.2e: fixed the relation definition.</li>
+</ul>
 <hr>
 <details open>
   <summary>Exercise 1 [2]</summary>
@@ -63,7 +63,7 @@ Tools and resources used: On Exercise 1, I used ChatGPT to help me figure out ho
       <ol>
         <li>Prove that \(r^kf = fr^{n-k}\) for all \(0 &lt; k &lt; n\).</li>
         <li>Prove that every element can be written in the form \(r^kf^\ell\) for \(0 \leq k &lt; n\) and \(\ell \in \{0, 1\}\)</li>
-        <li>Prove that the order (number of elements) of the group is \(D_n = 2n\).</li>
+        <li>Prove that the order (number of elements) of the group is \(|D_n| = 2n\).</li>
       </ol>
     </li>
     <li>
@@ -81,9 +81,9 @@ Tools and resources used: On Exercise 1, I used ChatGPT to help me figure out ho
           Prove that cyclic groups \(C_n\) are abelian.
         </li>
         <li>
-          Prove that the <i>general linear group</i> of \(2 \times 2\) real-valued matrices \[
-            GL_2(\mathbb{R}) = \{A \in \mathbb{R}^{n \times n} \mid \det(A) \neq 0\}
-          \] is <em>not abelian</em>.
+          Prove that the <i>general linear group</i> of \(n \times n\) real-valued matrices \[
+            GL_n(\mathbb{R}) = \{A \in \mathbb{R}^{n \times n} \mid \det(A) \neq 0\}
+          \] is <em>not abelian</em> for $n \geq 2$.
         </li>
         <li>
           Prove that the dihedral group \(D_n\) is abelian if and only if \(n \leq 2\).
@@ -210,7 +210,7 @@ Tools and resources used: On Exercise 1, I used ChatGPT to help me figure out ho
         </li>
         <li>[2]
           Let $(G,*)$ be a group and define the relation \(R\) as \[
-            a \mathrel{R} b \Longleftrightarrow a = g * a * g^{-1} \text{ for some } g \in G.
+            a \mathrel{R} b \Longleftrightarrow a = g * b * g^{-1} \text{ for some } g \in G.
           \] Prove or disprove that \(R\) is an equivalence relation.
         </li>
       </ol>
@@ -291,10 +291,10 @@ Tools and resources used: On Exercise 1, I used ChatGPT to help me figure out ho
     </li>
     <li>
       <p>
-        We begin with the definition of a <em>relation</em>. Given a set $X$ we say a relation $R$ is a subset of the Cartesian product $R \subseteq X \times X$ and we say that $a \mathrel{R} b$ if if $(a,b) \in R$.
+        We begin with the definition of a <em>relation</em>. Given a set $X$ we say a relation $R$ is a subset of the Cartesian product $R \subseteq X \times X$ and we say that $a \mathrel{R} b$ if and only if $(a,b) \in R$.
       </p>
       <p>
-        For example, if $X = \{1,2,3\}$ then if $R$ is the "less than" relation, then formally $R = \{(1,2),(1,3),(2,3)\}$.
+        For example, if $X = \{1,2,3\}$ and $R$ is the "strictly less than" relation, then formally $R = \{(1,2),(1,3),(2,3)\}$.
       </p>
       <p>
         <i>
@@ -405,17 +405,17 @@ Tools and resources used: On Exercise 1, I used ChatGPT to help me figure out ho
         <li>
           Prove that $GL^+_n(\mathbb{R})$ is a <em>normal</em> subgroup of \(GL_n(\mathbb{R})\), compute the order of the quotient group \(
             GL_n(\mathbb{R})/GL^+_n(\mathbb{R})
-          \), and describe the coset that contains the matrix $-I_n$ (where $I$ is the $n\times n$ identity matrix.)
+          \), and describe the coset that contains the matrix $-I_n$ (where $I_n$ is the $n\times n$ identity matrix.)
         </li>
         <li>
           Let $SL_n(\mathbb{R})$ be the subset of $GL_n(\mathbb{R})$ which consists of matrices with determinant one. Prove that $SL_n(\mathbb{R})$ is a subgroup of $GL_n(\mathbb{R})$.
         </li>
         <li>
-          Prove that \(\{I,-I\} \leq SL_n(\mathbb{R})\), and moreover that \(\{I,-I\} \lhd SL_n(\mathbb{R})\).
+          Prove that when $n$ is even, \(\{I_n,-I_n\} \leq SL_n(\mathbb{R})\), and moreover that \(\{I_n,-I_n\} \lhd SL_n(\mathbb{R})\).
         </li>
         <li>
           Give an example of two matrices that are in the identity coset of the quotient group \(
-            SL_n(\mathbb{R})/\{I,-I\},
+            SL_n(\mathbb{R})/\{I_n,-I_n\},
           \) and give an example of two matrices that are in some other coset.
         </li>
       </ol>
@@ -430,9 +430,40 @@ Tools and resources used: On Exercise 1, I used ChatGPT to help me figure out ho
           Show that \(O(n,\mathbb{R})\) is a group for all integers $n \geq 1$.
         </li>
         <li>
-          The <em>special orthogonal group</em> \(SO(n,\mathbb{R})\) is the subset of \(SO(n,\mathbb{R})\) consisting of all matrices whose determinant is positive. Prove that this is a group. (This is the group of rotations of the unit hypersphere in \(\mathbb{R}^n\)).
+          The <em>special orthogonal group</em> \(SO(n,\mathbb{R})\) is the subset of \(O(n,\mathbb{R})\) consisting of all matrices whose determinant is positive. Prove that this is a group. (This is the group of rotations of the unit hypersphere in \(\mathbb{R}^n\)).
         </li>
       </ol>
+    </li>
+  </ol>
+</details>
+<details open>
+    <summary>
+    Choice Exercise 9 [≤12]
+    <span style="font-size: small;">(proof)</span>
+  </summary>
+  <p>
+    In all parts, let $(G,*)$ be a group and $H$ be a subgroup. You will be proving a fact about the binary operation on <i>cosets</i> \[
+      aH \bullet bH = (a * b)H.
+    \]
+  </p>
+  <ol>
+    <li>[≤3]
+      Start by giving an example of a case where this binary operation is <i>not</i> well-defined, by describing a group $G$ a subgroup $H$, two cosets $aH = a'H$ and $bH = b'H$ such that $(a*b)H \neq (a'*b')H$.
+      <br>
+      <i>(One point if you describe the example from class, two points if you describe a similar example, and three points if you describe a significantly different example.)</i>
+    </li>
+    <li>[3]
+      Prove that if $\bullet$ is well-defined on the (left) cosets of $H$, then $gH = Hg$ for all $g \in G$.
+    </li>
+    <li>[2]
+      Prove that if $gH = Hg$ for all $g \in G$, then $\bullet$ is well-defined on the (left) cosets of $H$.
+    </li>
+    <li>[1]
+      Prove that if $G$ is an abelian group, then every subgroup $H \leq G$ is a normal subgroup.
+    </li>
+    <li>[3]
+      Let $g \in G$ be some fixed element of $G$. Prove that a subgroup $H \le G$ is a normal subgroup if and only if
+      for all $g' \in gH$ there exists $h \in H$ such that $g' = h * g$.
     </li>
   </ol>
 </details>

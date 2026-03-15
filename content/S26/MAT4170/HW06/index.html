@@ -1,0 +1,171 @@
+---
+title: HW 6
+type: assignment
+number: 6
+courseNumber: MAT4170
+term: S26
+date: 2026-03-20
+layout: layouts/hw.njk
+---
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+<h2>Goals</h2>
+<ul>
+  <li>Schedule meeting about blog post</li>
+  <li>See all groups of order $\leq 11$</li>
+  <li>Get practice with subgroups and homomorphisms</li>
+  <li>Defend against common misconceptions</li>
+  <li>Baby's first Coxeter group</li>
+</ul>
+<!-- <h2>Change log</h2>
+<ul>
+  <li><i>(2026-xx-xx xx:xx)</i>[...]</li>
+</ul> -->
+<hr>
+<details open>
+  <summary>
+    Exercise 1 [2]
+    <span style="font-size: small;">(Read this because it has changed!)</span>
+  </summary>
+  <ol>
+    <li>
+      Fill out the following and tag it as Exercise 1: <pre><code>\section*{Exercise 1}
+Collaborators: Alex, Ross, Margaret, Joan
+
+\noindent
+Tools and resources used: On Exercise 1, I used ChatGPT to help me figure out how to [...]. On Choice Exercise 7, I watched a YouTube video to [...].
+\pagebreak</code></pre>
+      You don't need to include class notes or textbooks under "tools and resources."
+    </li>
+    <li>
+      On <em>each</em> individual exercise you attempt (both required and choice) start with a header based on this template. (Make sure that the denominator of the "self-assessed score" matches the number of points attempted.)
+      <code><pre>\section*{Choice Exercise 5}
+\begin{itemize}
+  \item Points attempted: 7
+  \item Self-assessed score: 6/7.
+  \item Time spent: 56 minutes.
+  \item Difficulty: 8/10.
+  \item Questions/Feedback: None.
+\end{itemize}</pre></code>
+    </li>
+    <li>
+      Choose one or more problems that you would most like feedback on, and indicate this under the "questions/feedback" bullet with a brief note of what you would most like me to focus on. (This could be "mathematical correctness," "grammar," "notation," "formatting," or anything else.)
+    </li>
+  </ol>
+</details>
+
+<details open>
+  <summary>Exercise 2 [3]</summary>
+  <ol>
+    <li>
+      Coordinate with the other two students in your group to schedule a 5-10 meeting with me to discuss your blog post. Come prepared with specific ideas or specific questions.
+    </li>
+    <li>
+      Post on the <code>#glossary</code> Discord channel with a definition or theorem that you want to remember or that you think is important for your classmates to know.
+    </li>
+  </ol>
+</details>
+
+<details open>
+  <summary>Exercise 3 [5]</summary>
+  <p>
+    Humans have determined all groups of order \(n &lt; 2^{11}\) where we consider two groups to be equivalent if there is an isomorphism between them. There are <a href="https://oeis.org/A000001/b000001.txt">$49\,487\,367\,289$ groups of order $2^{10} = 1024$</a> up to isomorphism, and it is an open question to determine the number of groups of order $2^{11} = 2048$.
+  </p>
+  <p>
+    Here, you will give examples of each of the groups of order \(n \leq 11\) up to isomorphism. You will need prove that each of the groups you find is not isomorphic to any of the others. It will probably be useful to keep in mind that the direct product $G_1 \times G_2$ is abelian if and only if $G_1$ and $G_2$ is abelian.
+  </p>
+  <p>Give examples of each of the following:</p>
+  <ol>
+    <li>one group of order $1$;</li>
+    <li>one group of order $p$ for each prime $p$;</li>
+    <li>two groups of order $4$ (both abelian);</li>
+    <li>two groups of order $6$ (one is abelian);</li>
+    <li>five groups of order $8$ (three are abelian, and one group we saw on Exam 1);</li>
+    <li>two groups of order $9$ (both are abelian); and</li>
+    <li>two groups of order $10$ (one is abelian).</li>
+  </ol>
+</details>
+
+<h2>Choice Exercises</h2>
+<p><i>Do 15 points of the following.</i></p>
+
+<details open>
+    <summary>
+    Choice Exercise 4 [≤7]
+    <span style="font-size: small;">(HW4 Required Exercise 2)</span>
+  </summary>
+  Required Exercise 2 on HW4 was longer than I meant for it to be. If you spent $m$ minutes working on that exercise, then you can claim \[
+    \min\left(\left\lceil \frac{m-60}{10} \right\rceil, 7\right)
+  \] points on this problem by doing the following.
+  <ol>
+    <li>
+      (Do this part after you do the second part.) Write at least three sentences answering the following.
+      <ol>
+        <li>What are a few ideas from HW 4 Exercise 2 that make a lot of sense to you?</li>
+        <li>What ideas did you find most difficult?</li>
+        <li>Can you think of any ways to generalize the definitions or propositions that appeared in that problem?</li>
+      </ol>
+    </li>
+    <li>
+      Copy/paste your answer from HW 4, re-read it, and make at least three changes that improve the exposition or correctness of the proofs.
+    </li>
+  </ol>
+</details>
+
+<details open>
+    <summary>
+    Choice Exercise 5 [≤9] 🌟
+    <span style="font-size: small;">(Homomorphisms and subgroups)</span>
+  </summary>
+  {% include 'content/S26/MAT4170/HW06/_choice_exercise_p.html' %}
+</details>
+
+<details open>
+    <summary>
+    Choice Exercise 6 [≤9] 🌟
+    <span style="font-size: small;">(Symmetric group practice)</span>
+  </summary>
+  {% include 'content/S26/MAT4170/HW06/_choice_exercise.html' %}
+</details>
+
+<details open>
+    <summary>
+    Choice Exercise 7 [≤10] 🌟
+    <span style="font-size: small;">(True/false)</span>
+  </summary>
+  {% include 'content/S26/MAT4170/HW06/_choice_exercise_true_false.html' %}
+</details>
+
+<details open>
+    <summary>
+    Choice Exercise 8 [8+2] 🌟
+    <span style="font-size: small;">(challenge + programming)</span>
+  </summary>
+  {% include 'content/S26/MAT4170/HW06/_choice_exercise_challenge.html' %}
+</details>
+
+<details open>
+  <summary>Final Choice Exercise [≤7]</summary>
+  <i>Do any subset of the following parts, state which you did and how many points you are claiming for this problem (maximum of 7 points).</i>
+  <ol>
+    <li>[≤3] Email Prof Kagey (pkagey@cpp.edu) or post in the <code>#feedback</code> channel on Discord with a typo that you have spotted in this assignment or with a suggestion about how to make something clearer. (One point for every six minutes that the typo got you stuck, with a maximum of three points.)</li>
+    <li>[≤2] Ask a question on Discord. (One point per question, up to 2.)</li>
+    <li>[≤4] Answer a classmate's question on Discord or give a hint about a problem on this week's assignment.<a id="ref-asterisk" href="#label-asterisk"><sup>*</sup></a> (Two points per answer/hint, up to 4.)</li>
+    <li>[≤4] Can you generalize any of the above problems in an interesting way? If so say what the generalization is, attempt to solve it, say something about it, and say how many points you feel like your effort was worth, up to 4.</li>
+    <li>[≤4] Choose one or more problems from our textbook or a previous homework assignment which interest you and write the problem statement along with an answer. Say how many points you feel like your effort was worth, up to 4.</li>
+    <li>[2] Stop by student drop-in hours.</li>
+    <li>[2 or 5] Work on at least one of the above exercises with a classmate. State which classmate you worked with and which exercises you collaborated on. If you've collaborated with someone for the first time, you get 5 points, if you've collaborated with someone before, you get 2 points for working with them again.</li>
+    <li>[2] Turn in the assignment on time (without requesting an extension).</li>
+  </ol>
+</details>
+
+<hr>
+<ol class="footnotes">
+  <!-- <li id="label-1">
+    [...]
+    <a href="#ref-1">⏎</a>
+  </li> -->
+  <li id="label-asterisk">
+    The syntax for a hint on Discord is double bars <code>||</code> on each side of the spoiler like this: <code>Remember that ||1 + x &lt; x + 2||.</code>
+    <a href="#ref-asterisk">⏎</a>
+  </li>
+</ol>

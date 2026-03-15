@@ -10,20 +10,18 @@ courseTitle: Introduction to Mathematical Proof
 
 <h2>Assignments</h2>
 <div class="three-column grid by-columns">
-{% for post in collections.all | reverse %}
-  {% if (post.data.courseNumber == courseNumber) and (post.data.term == term) and (post.data.type == "assignment") %}
-    <a href="{{ post.url }}" class="hw-list-item">
-      <div>
-        <div class="hw-link">
-          {{ post.data.title }}
-        </div>
-        <div>
-          ({{ post.data.date | dueDate }})
-        </div>
+{% for post in collections.all | reverse %}{% if (post.data.courseNumber == courseNumber) and (post.data.term == term) and (post.data.type == "assignment") %}
+  <a href="{{ post.url }}" class="hw-list-item">
+    <div>
+      <div class="hw-link">
+        {{ post.data.title }}
       </div>
-    </a>
-  {% endif %}
-{% endfor %}
+      <div>
+        ({{ post.data.date | dueDate }})
+      </div>
+    </div>
+  </a>
+{% endif %}{% endfor %}
 </div>
 
 <h2>Other assignments</h2>

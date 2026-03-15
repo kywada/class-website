@@ -10,8 +10,7 @@ courseTitle: Differential Geometry
 
 <h2>Assignments</h2>
 <div class="three-column grid by-columns">
-{% for post in collections.all | reverse %}
-  {% if (post.data.courseNumber == courseNumber) and (post.data.term == term) and (post.data.type == "assignment") %}
+{% for post in collections.all | reverse %}{% if (post.data.courseNumber == courseNumber) and (post.data.term == term) and (post.data.type == "assignment") %}
     <a href="{{ post.url }}" class="hw-list-item">
       <div>
         <div class="hw-link">
@@ -22,12 +21,12 @@ courseTitle: Differential Geometry
         </div>
       </div>
     </a>
-  {% endif %}
-{% endfor %}
+{% endif %}{% endfor %}
 </div>
 
 <h3>Other pages</h3>
 <ul>
+  <li><a href="/S26/MAT4200/blog_post/">Term paper (blog post)</a></li>
   <li><a href="/S26/MAT4200/Exam1.html">Exam 1</a></li>
   <li><a href="first_day/">First day SVG activity</a></li>
 </ul>
