@@ -1,5 +1,5 @@
 ---
-title: Your Blog Title
+title: Notes as Cosets: A Guide to the Octave Quotient Group
 author: Brandon Chong
 date: 2026/5/1
 type: blog
@@ -8,7 +8,6 @@ term: S26
 layout: layouts/blog.njk
 ---
 
-# Notes as Cosets: A Guide to the Octave Quotient Group
 
 As a violinist who had been classically trained for 15 years, I have heard and played the same "A" note thousands of times. However, an "A" note at 440 Hz and an "A" note at 880 Hz are mathematically different numbers. So why do we hear them as the same?
 
