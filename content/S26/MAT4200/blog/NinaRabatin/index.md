@@ -1,5 +1,5 @@
 ---
-title: Pasta by Design: Shapes That Don't Work and Why
+title: Pasta by Design - Shapes That Don't Work and Why
 author: Nina Rabatin
 date: 2026-05-01
 type: blog
