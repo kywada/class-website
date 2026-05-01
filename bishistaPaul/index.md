@@ -1,3 +1,4 @@
+---
 title: A Brief Introduction to Evolution Algebras
 author: Bishista Paul
 date: 2026-05-01
@@ -5,6 +6,7 @@ type: blog
 courseNumber: MAT4170
 term: S26
 layout: layouts/blog.njk
+---
 
 A Brief Introduction to Evolution Algebras
 ========================
@@ -119,26 +121,26 @@ When $g_1$ splits, it only carries $g_1$ genes, and the same follows for $g_2.$
 We will do two simulations. First, us assume that $\pi = 0.33, \alpha = 0.34, \beta = 0.3$. Using Markov Chain simulation in R, we end up with these graphs over 10 generations:
 
 **g0**
-<img width="400" height="400" alt="g0_equal" src="https://gist.github.com/user-attachments/assets/30a2a84b-f33e-48fd-9de8-ea34f1eaa22b" />
+<img width="400" height="400" alt="g0_equal" src="‎Screenshot 2026-05-01 100141.png" />
 
 **g1**
-<img width="400" height="400" alt="g1_equal" src="https://gist.github.com/user-attachments/assets/7bece958-2048-46e3-93e4-b455a202f6cf" />
+<img width="400" height="400" alt="g1_equal" src="Screenshot 2026-05-01 100213.png" />
 
 **g2**
-<img width="400" height="400" alt="g2_equal" src="https://gist.github.com/user-attachments/assets/560e2416-0832-4048-aa1d-d198527c3c74" />
+<img width="400" height="400" alt="g2_equal" src="‎Screenshot 2026-05-01 100233.png" />
 
 These graphs show that $g_0$ approaches 0 by around 5 generations, and the same happens for $g_1$ and $g_2.$
 
 Now, let us assume a much more dramatic probability distribution, where $\pi = 0.70, \alpha = 0.25, \beta = 0.05$. Using Markov Chain simulation in R, we end up with these graphs over 10 generations:
 
 **g0**
-<img width="400" height="400" alt="g0_70%" src="https://gist.github.com/user-attachments/assets/5eb39dd5-b9ce-4b99-adc6-6590b9a0d07d" />
+<img width="400" height="400" alt="g0_70%" src="Screenshot 2026-05-01 100357.png" />
 
 **g1**
-<img width="400" height="400" alt="g1_20%" src="https://gist.github.com/user-attachments/assets/78f3a597-4c7a-42d8-9972-6f045643a04a" />
+<img width="400" height="400" alt="g1_20%" src="Screenshot 2026-05-01 100405.png" />
 
 **g2**
-<img width="400" height="400" alt="g2_5%" src="https://gist.github.com/user-attachments/assets/c0ca8d47-fd69-40ec-af1c-75744d2cbdc6" />
+<img width="400" height="400" alt="g2_5%" src="Screenshot 2026-05-01 100424.png" />
 
 Within 10 generations, $g_0$ still approaches 0 relatively quickly.
 
